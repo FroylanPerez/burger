@@ -1,8 +1,22 @@
+body {
+    background-color: yellow;
+}
+
 li {
     padding: 5px;
     margin: 5px;
     background: aqua;
   }
+
+h1 {
+    text-align: center;
+}
+
+.burgerImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
   
   .label {
     font-weight: bold;
