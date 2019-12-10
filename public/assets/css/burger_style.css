@@ -2,20 +2,43 @@ body {
     background-color: yellow;
 }
 
-li {
-    padding: 5px;
-    margin: 5px;
-    background: aqua;
+.availableBlock {
+    padding: 15px;
+    margin: 10px;
+    background: whitesmoke;
+    text-align: center;
+    width: 250px;
   }
+
+.devouredBlock {
+  padding: 15px;
+  margin: 10px;
+  background: whitesmoke;
+  text-align: center;
+  width: 250px;
+  color: gray;
+}
 
 h1 {
     text-align: center;
+    color: red;
+}
+
+h6 {
+  text-align: center;
+}
+
+.change-devour {
+  width: 95px;
 }
 
 .burgerImg {
     display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+    margin-top: 15px;
+    width: 235px;
+    height: 175px;
 }
   
   .label {
@@ -31,4 +54,19 @@ h1 {
   .form-group {
     margin-bottom: 5px;
   }
+
+.submitBtn {
+  background-color: blue;
+  color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
   
+#ca {
+  width: 300px;
+  height: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
